@@ -33,8 +33,53 @@ p{
 }
 .saludos{
     background-image: url(Imagenes/blanco.jpg);
+    text-align: center;
     align-items: center;
-    height: 200px;
+    height: 500px;
+    margin: auto;
+    width: 30%;
+}
+.bienvenidos{
+    color:darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texto1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hr1{
+    width: 50%;
+    border: solid 1px red;
+}
+.contact{
+ text-align: center;
+ color: black;   
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-top: 20%;
+}
+a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: grey;
+}
+.logos{
+    margin-top: -15px;
+}
+.hr2{
+    width: 50%;
+    border: solid 1px red;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.contactinfo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section1{
+    background-image: url(Imagenes/blanco.jpg);
+    text-align: center;
+    align-items: center;
+    height: 500px;
     margin: auto;
     width: 30%;
 }
