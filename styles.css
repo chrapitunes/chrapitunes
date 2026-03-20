@@ -75,11 +75,18 @@ a{
 .contactinfo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.section1{
+.section1, .section2{
+    display: flex;
+    background-size: cover;
     background-image: url(Imagenes/blanco.jpg);
     text-align: center;
-    align-items: center;
+    align-items:center;
     height: 500px;
-    margin: auto;
+    margin: 0;
     width: 30%;
+}
+.contenedor{
+    display: flex;
+    justify-content: flex-start;
+  gap: 75px;
 }
