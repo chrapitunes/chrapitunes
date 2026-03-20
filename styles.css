@@ -75,18 +75,57 @@ a{
 .contactinfo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.section1, .section2{
+.section1{
     display: flex;
     background-size: cover;
     background-image: url(Imagenes/blanco.jpg);
     text-align: center;
     align-items:center;
-    height: 500px;
+    height: 800px;
+    justify-content: flex-start;
+    padding-top: 20px;
     margin: 0;
+    flex-direction: column;
+    width: 30%;
+}
+.section2{
+    display: flex;
+    background-size: cover;
+    background-image: url(Imagenes/blanco.jpg);
+    text-align: center;
+    align-items:flex-start;
+    height: 800px;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0;
+    flex-direction: column;
+    width: 30%;
+}
+.section3{
+    display: flex;
+    background-size: cover;
+    background-image: url(Imagenes/blanco.jpg);
+    text-align: center;
+    align-items:flex-start;
+    height: 800px;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0;
+    flex-direction: column;
     width: 30%;
 }
 .contenedor{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   gap: 75px;
+}
+.section1text{
+    color: black;
+    text-align: center;
+}
+.textsection1{
+    color: black;
+}
+.videogojo{
+    border: solid 3px red;
 }
