@@ -93,13 +93,14 @@ a{
     background-size: cover;
     background-image: url(Imagenes/blanco.jpg);
     text-align: center;
-    align-items:flex-start;
+    align-items:center;
     height: 800px;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     padding-top: 20px;
     margin: 0;
-    flex-direction: column;
     width: 30%;
+    
 }
 .section3{
     display: flex;
@@ -131,4 +132,12 @@ a{
 }
 a:visited{
     color:red;
+}
+
+.textsection2{
+    color:chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gemini-img{
+    border: solid 2px red;
 }
