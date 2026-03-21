@@ -129,3 +129,6 @@ a{
 .videogojo{
     border: solid 3px red;
 }
+a:visited{
+    color:red;
+}
